@@ -1,0 +1,74 @@
+  .main-body {
+
+    background-image: url(../image/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+
+    font-family: 'Fira Code', monospace;
+    color: white;
+
+  }
+
+.header{
+
+  margin-top: 80px;
+  margin-left: 420px;
+  font-size: 30px;
+
+}
+
+
+.cp-image{
+  margin-left: 400px ;
+  border-radius: 20px;
+  width: 900px;
+  height: auto;
+  padding-left: 50px;
+
+}
+  
+.cp-button{
+ 
+  color: white;
+  background-color: transparent;
+  padding: 10px 20px; 
+  border-radius: 30px;
+  cursor: pointer;
+  border-color: white;
+  font-size: 15px;
+  border-style:dotted;
+  
+}
+
+.title{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.project-title{
+
+  margin-top: 80px;
+  margin-left: 420px;
+  font-size: 20px;
+
+}
+.cpihtc-image{
+
+  margin-left: 400px ;
+  border-radius: 20px;
+  width: 900px;
+  height: auto;
+  padding-left: 50px;
+
+}
+.cpihtc-dec{
+  margin-left: 700px;
+}
+.cpihtc-link{
+  
+
+  color: white;
+}
