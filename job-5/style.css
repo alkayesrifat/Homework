@@ -43,31 +43,30 @@
 }
 
 .carousel-item {
-    aspect-ratio: 1999 / 598;   /* existing ratio */
+    aspect-ratio: 1999 / 598;  
     background-color: #000;
-    position: relative;        /* enable absolute positioning of overlay */
+    position: relative;        
 }
 
-/* overlay caption positioned on the left side, vertically centered */
 .carousel-caption-custom {
     position: absolute;
-    top: 50%;                     /* vertical center */
-    left: 10%;                    /* move text right from the edge */
+    top: 50%;                    
+    left: 10%;                    
     transform: translateY(-50%);
     padding: 0.5rem 1rem;
     background: rgba(0, 0, 0, 0.55);
     color: #fff;
-    font-size: 1.2rem;            /* increased size */
+    font-size: 1.2rem;            
     line-height: 1.4;
     white-space: nowrap;
 }
 
-/* optional: adjust font size on very small screens */
+
 @media (max-width: 576px) {
     .carousel-caption-custom {
-        font-size: 1rem;          /* slightly smaller for tiny screens */
+        font-size: 1rem;         
         padding: 0.4rem 0.8rem;
-        left: 5%;                 /* a smaller offset on tiny screens */
+        left: 5%;                
     }
 }
 
@@ -152,19 +151,18 @@
     line-height: 1.6;
 }
 
-/* spacing utility for distinct sections */
 .section-gap {
     margin: 1.5rem 0;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-/* ensure direct children in main-content are separated for consistent layout */
+
 .main-content > * + * {
     margin-top: 1.25rem;
 }
 
-/* programming affairs message section */
+
 .message-section {
     background: rgba(11,110,79,0.06);
     border-radius: 8px;
@@ -181,21 +179,19 @@
     background-color: rgba(255,255,255,0.03);
 }
 
-/* custom aspect‑ratio 1999:598 for carousel containers */
 .ratio-1999-598 {
     aspect-ratio: 1999 / 598;
 }
 
-/* keep the image styling consistent with the new ratio */
+
 .carousel-item img {
     height: auto;
     object-fit: cover;
     width: 100%;
 }
 
-/* optional: retain old class for backward compatibility (can be removed later) */
 .ratio-91-31 {
-    aspect-ratio: 1999 / 598;   /* alias to the new ratio */
+    aspect-ratio: 1999 / 598; 
 }
 
 @media (max-width: 768px) {
