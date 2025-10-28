@@ -1,0 +1,277 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumilla Polytechnic Institute High Tech club</title>
+    <link rel="icon" type="image/x-icon" href="https://875483-job-4.netlify.app/src/cpi-logos-web.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .header-bg {
+            background-color: #1a237e;
+        }
+
+        .navbar-brand img {
+            max-height: 60px;
+        }
+
+
+        .carousel-item {
+
+            aspect-ratio: 16/9;
+            background-color: #000;
+        }
+
+        .carousel-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; 
+            background-color: #000; 
+        }
+
+        .sidebar {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar h4 {
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            color: #1a237e;
+        }
+
+        .footer-bg {
+            background-color: #343a40;
+        }
+
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+
+        .main-content {
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+
+            .sidebar img {
+                width: 70% !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header-bg py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-2 col-4">
+                    <img src="https://875483-job-4.netlify.app/src/cpi-logos-web.png" class="img-fluid rounded-circle"
+                        alt="Cumilla Polytechnic Institute Logo">
+                </div>
+                <div class="col-md-10 col-8">
+                    <h3 class="text-white mb-0">Cumilla Polytechnic Institute</h3>
+                    <p class="text-white mb-0">High Tech Club</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photo Gallery</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="instituteCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#instituteCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#instituteCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#instituteCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="ratio ratio-16x9">
+                    <img src="https://i.postimg.cc/0QZC4wqN/programming-hero-X-CPIHTC.png" class="d-block w-100 carousel-img" alt="Campus View 1">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-16x9">
+                    <img src="https://i.postimg.cc/9Mr3PjWb/jhankar-mahbub-2.jpg" class="d-block w-100 carousel-img" alt="Campus View 2">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-16x9">
+                    <img src="https://875483-job-4.netlify.app/src/sir.jpg" class="d-block w-100 carousel-img" alt="Campus View 3">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#instituteCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#instituteCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+   
+    <main class="container my-4">
+        <div class="row">
+            <div class="col-lg-8 col-md-7 main-content">
+                <h2 class="mb-3">Welcome to Cumilla Polytechnic Institute</h2>
+                <p>
+                    The Cumilla Polytechnic Institute High Tech Club (CPI HTC) is a student-led organization dedicated to
+                    fostering innovation, learning, and collaboration in technology. Formerly known as the CPI Programming
+                    Club, CPI HTC has grown its focus to cover a broad range of high-tech fields and practical skills.
+                </p>
+
+                <h4>Key activities and focus areas</h4>
+                <p>
+                    CPI HTC's mission is to empower students with skills and resources for success in the tech industry.
+                    The club runs regular activities across several areas:
+                </p>
+                <ul>
+                    <li><strong>Workshops & training:</strong> Free, hands-on workshops (for example, beginner Python sessions and a "Zero to Professional" web development course).</li>
+                    <li><strong>Competitive programming:</strong> Contests and practice sessions to build problem-solving skills in data structures and algorithms.</li>
+                    <li><strong>Modern technologies:</strong> Exploration and projects in AI/ML, full-stack web & app development, networking, graphics design, and cybersecurity.</li>
+                    <li><strong>Career guidance:</strong> Events such as career summits and partnership-driven "Tech Career Hunts" providing industry insights and mentorship.</li>
+                    <li><strong>Resource sharing & projects:</strong> A hub for collaborative projects, resource exchange, and building real-world applications.</li>
+                    <li><strong>Leadership development:</strong> Activities that build teamwork, presentation skills, and leadership experience.</li>
+                </ul>
+
+                <h4>Who can join</h4>
+                <p>
+                    CPI HTC primarily serves students of Cumilla Polytechnic Institute and welcomes members from multiple departments, including
+                    Computer Science & Technology, Electrical & Electronic Engineering, Civil Engineering, Mechanical Engineering, and Electronics & Telecommunication.
+                </p>
+
+                <p>
+                    If you'd like to get involved, attend a club workshop or follow CPI HTC's announcements for upcoming events and projects. The club provides a practical, hands-on path for students to grow technical and professional skills while contributing to a collaborative community.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-5">
+
+                <div class="sidebar text-center">
+                   
+                    <img src="https://i.postimg.cc/xC7TXZG4/avatar.jpg"
+                        class="img-fluid mb-2" alt="Principal">
+                    <h5>Al Kayes Rifat</h5>
+                    <p>Programming and Competitive affairs coordinator</p>
+                    <a href="https://cpihtc.vercel.app/profile/team/1" class="btn btn-sm btn-outline-primary">View Details</a>
+                </div>
+
+   
+                <div class="sidebar text-center">
+                
+                    <img src="https://i.postimg.cc/vDR1GZMC/najmul-haque-talukder.png"
+                        class="img-fluid mb-2" alt="Junior Instractor">
+                    <h5>Najmul Haque Talukder</h5>
+                    <p>Chief Coordinator</p>
+                    <a href="https://cpihtc.vercel.app/profile/team/2" class="btn btn-sm btn-outline-primary">View Details</a>
+                </div>
+
+       
+                <div class="sidebar">
+                    <h4>Location</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1830.323283347116!2d91.13564893830254!3d23.43713115564288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547e82f28ad7b3%3A0xbb462181ba463bc9!2sCumilla%20Polytechnic%20Institute%20(CPI)!5e0!3m2!1sen!2sbd!4v1760435303695!5m2!1sen!2sbd"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <h4>Important Links</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://cpihtc.vercel.app" class="text-decoration-none">Club Website</a></li>
+                        <li class="mb-2"><a href="https://cpihtc.vercel.app/team" class="text-decoration-none">Club Team Members</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer-bg text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <p>&copy; 2025 <a href="https://alkayesrifat.netlify.app/" target="_blank">Al Kayes Rifat</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-1"><a href="https://cpihtc.vercel.app/">Home</a></li>
+                        <li class="mb-1"><a href="https://cpihtc.vercel.app/forum">Club forum</a></li>
+                        <li class="mb-1"><a href="https://cpihtc.vercel.app/join-us">Join Us</a></li>
+                        <li><a href="https://cpihtc.vercel.app/post">Photo Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5>Contact Information</h5>
+                    <p class="mb-1">Kotbari, Cumilla, Bangladesh</p>
+                    <p class="mb-1">Phone: +880 1245799</p>
+                    <p>Email: info.cpihtc@gmail.com</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/cumillapoly.gov.bd/" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.linkedin.com/school/cumillapolytechnicinstitute/" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
